@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TabDemo</string>
+
+    <string name="main_tab_news">综合</string>
+
+    <string name="main_tab_move">动弹</string>
+
+    <string name="main_tab_quick">快速</string>
+
+    <string name="main_tab_question">问答</string>
+
+    <string name="main_tab_me">我</string>
+
+    <string name="open">open</string>
+
+    <string name="close">close</string>
+</resources>
