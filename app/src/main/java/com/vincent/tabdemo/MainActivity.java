@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
             }
         };
 
+        //同步
         mDrawerToggle.syncState();
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 

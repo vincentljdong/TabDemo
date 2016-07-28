@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--DrawerLayout是Google原生的侧滑菜单-->
 <android.support.v4.widget.DrawerLayout
     android:id="@+id/drawerable"
     xmlns:android="http://schemas.android.com/apk/res/android"

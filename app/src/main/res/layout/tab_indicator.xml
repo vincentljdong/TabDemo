@@ -13,7 +13,7 @@
         android:gravity="center"
         android:text=""
         android:textColor="@color/selector_tab_text"
-        android:textSize="12sp"/>
+        android:textSize="13sp"/>
 
     <TextView
         android:id="@+id/tab_mes"

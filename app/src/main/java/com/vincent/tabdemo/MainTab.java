@@ -8,8 +8,7 @@ import com.vincent.tabdemo.fragment.QuickFragment;
 
 /**
  * 创建者     Vincent
- * 创建时间   2016/7/8 23:09
- * 描述	      ${TODO}
+ * 描述	      枚举类
  * <p/>
  * 更新者     $Author$
  * 更新时间   $Date$

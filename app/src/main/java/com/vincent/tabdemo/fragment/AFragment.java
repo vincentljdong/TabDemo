@@ -1,6 +1,5 @@
 package com.vincent.tabdemo.fragment;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -12,26 +11,26 @@ import android.widget.TextView;
 
 /**
  * 创建者     Vincent
- * 创建时间   2016/7/8 23:49
- * 描述	      动弹模块
+ * 创建时间   2016/7/28 19:41
+ * 描述	      ${TODO}
  * <p/>
  * 更新者     $Author$
  * 更新时间   $Date$
  * 更新描述   ${TODO}
  */
-public class MoveFragment extends Fragment{
+public class AFragment extends Fragment {
+    String[] title;
+
+    public AFragment(String[] title) {
+        this.title = title;
+    }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        /**
-         模拟数据
-         */
         TextView textView = new TextView(getContext());
-        textView.setText(getClass().getSimpleName());
         textView.setGravity(Gravity.CENTER);
-        textView.setTextColor(Color.RED);
-        textView.setTextSize(19);
+        textView.setText(title[0]);
         return textView;
     }
 }

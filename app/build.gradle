@@ -24,4 +24,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile files('libs/butterknife-5.1.2.jar')
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
 }
